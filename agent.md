@@ -112,6 +112,7 @@ Cả 2 câu đều được giữ nguyên vẹn trong ngân hàng câu hỏi v�
 | 2026-11-18 00:02 | `python scripts/extract_quiz.py` | Thành công (Exit 0) | Trích xuất toàn bộ 275 trang, 69 quiz, 485 câu, 57 ảnh |
 | 2026-11-18 00:03 | `npm test` | Thành công (21/21 passed) | 12 tests trong `data_integrity.test.ts`, 9 tests trong `samples_and_assets.test.ts` |
 | 2026-11-18 00:05 | `npm run build` | Thành công (Exit 0, 3.96s) | `tsc -b && vite build` tạo ra thư mục `dist/` đầy đủ |
+| 2026-11-18 00:19 | `git push origin main` | Thành công (Exit 0) | Đã push toàn bộ mã nguồn lên `phamquocanh149/WebOnTapCNPMbyPQA` |
 
 ## 8. Vấn đề đang mở / Blockers
 
@@ -135,6 +136,14 @@ Cả 2 câu đều được giữ nguyên vẹn trong ngân hàng câu hỏi v�
   - Viết toàn diện tài liệu `README.md`.
   - Chạy và xác minh thành công toàn bộ test suite (21 passed) và build production.
 - **Trạng thái:** `DONE` (Nghiệm thu Stage 1).
+
+### Phiên 3 (Khởi tạo Git và Push mã nguồn lên GitHub)
+- **Ai thực hiện:** Senior Full-stack Engineer.
+- **Đã làm:**
+  - Tạo cấu hình `.gitignore` chuẩn (loại trừ `node_modules`, `dist`, `.vite`, logs).
+  - Khởi tạo git repository, thêm remote `origin https://github.com/phamquocanh149/WebOnTapCNPMbyPQA.git`.
+  - Rebase tích hợp commit ban đầu của remote và push thành công nhánh `main` lên repository.
+- **Trạng thái:** Hoàn thành đồng bộ Git.
 
 ---
 
